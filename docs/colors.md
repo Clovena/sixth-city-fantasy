@@ -7,14 +7,17 @@ Primary Red:
 - #f22e3d
 - rgb(242, 46, 61)
 - hsl(355, 88%, 56%)
+
 Primary Blue:
 - #22283a
 - rgb(34, 40, 58)
 - hsl(225, 26%, 18%)
+
 Primary Gold:
 - #f2b22e
 - rgb(242, 178, 46)
 - hsl(40, 88%, 56%)
+
 Primary Grey:
 - #e2d7ce
 - rgb(226, 215, 206)

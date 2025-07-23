@@ -8,17 +8,17 @@ Primary Red:
 - rgb(242, 46, 61)
 - hsl(355, 88%, 56%)
 
-Primary Blue:
+Secondary Blue:
 - #22283a
 - rgb(34, 40, 58)
 - hsl(225, 26%, 18%)
 
-Primary Gold:
+Tertiary Gold:
 - #f2b22e
 - rgb(242, 178, 46)
 - hsl(40, 88%, 56%)
 
-Primary Grey:
+Quaternary Grey:
 - #e2d7ce
 - rgb(226, 215, 206)
 - hsl(27, 26%, 85%)
@@ -67,18 +67,295 @@ Primary Grey:
 ## Team Palettes
 
 ### Gold Coast Sharks
+Primary: 
+- #006d75
+- rgb(0, 109, 117)
+- hsl()
+
+Secondary:
+- #ef929e
+- rgb()
+- hsl()
+
+Tertiary:
+- #efcfa5
+- rgb()
+- hsl()
+
+Quaternary:
+- #a1a8aa
+- rgb()
+- hsl()
 
 ### New New York Benders
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Newfoundland Blowers
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Sarnia SeaSnakes
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Thunder Bay Mustangs
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Toronto Hogs
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Vancouver Mounties
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
 
 ### Bikini Bottom Stars
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Choccolocco Railfans
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Iqaluit Trout
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Lower City Lasercats
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Mississauga Mastodons
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Pokemon Omega Judge Judy
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()
+
 ### Winnipeg Wranglers
+Primary: 
+- #
+- rgb()
+- hsl()
+
+Secondary:
+- #
+- rgb()
+- hsl()
+
+Tertiary:
+- #
+- rgb()
+- hsl()
+
+Quaternary:
+- #
+- rgb()
+- hsl()

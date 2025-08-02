@@ -318,24 +318,24 @@ Quaternary:
 - rgb()
 - hsl()
 
-### Pokemon Omega Judge Judy
+### Prince Edward Islanders
 Primary: 
-- #
+- #ff4e00
 - rgb()
 - hsl()
 
 Secondary:
-- #
+- #001f5d
 - rgb()
 - hsl()
 
 Tertiary:
-- #
+- #009ca7
 - rgb()
 - hsl()
 
 Quaternary:
-- #
+- #a2aaae
 - rgb()
 - hsl()
 

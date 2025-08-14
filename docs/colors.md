@@ -214,25 +214,25 @@ Quaternary:
 - hsl()
 
 ### Bikini Bottom Stars
-Primary: 
-- #
-- rgb()
-- hsl()
+Primary Purple: 
+- #b580ff
+- rgb(181, 128, 255)
+- hsl(265, 100%, 75%)
 
-Secondary:
-- #
-- rgb()
-- hsl()
+Secondary Green:
+- #caff80
+- rgb(202, 255, 128)
+- hsl(85, 100%, 75%)
 
-Tertiary:
-- #
-- rgb()
-- hsl()
+Tertiary Pink:
+- #ff808b
+- rgb(255, 128, 139)
+- hsl(355, 100%, 75%)
 
-Quaternary:
-- #
-- rgb()
-- hsl()
+Quaternary Blue:
+- #80fff4
+- rgb(128, 255, 244)
+- hsl(175, 100%, 75%)
 
 ### Choccolocco Railfans
 Primary: 

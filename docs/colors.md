@@ -236,12 +236,12 @@ Quaternary Blue:
 
 ### Choccolocco Railfans
 Primary: 
-- #
+- #382a17
 - rgb()
 - hsl()
 
 Secondary:
-- #
+- #daa04c
 - rgb()
 - hsl()
 

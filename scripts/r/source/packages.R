@@ -1,0 +1,11 @@
+require(httr, quietly = T, warn.conflicts = F)
+require(dplyr, quietly = T, warn.conflicts = F)
+require(tidyr, quietly = T, warn.conflicts = F)
+require(sqldf, quietly = T, warn.conflicts = F)
+require(magick, quietly = T, warn.conflicts = F)
+require(stringr, quietly = T, warn.conflicts = F)
+require(jsonlite, quietly = T, warn.conflicts = F)
+require(lubridate, quietly = T, warn.conflicts = F)
+require(data.table, quietly = T, warn.conflicts = F)
+
+require(nflfastR, quietly = T, warn.conflicts = F)

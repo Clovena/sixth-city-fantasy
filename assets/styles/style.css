@@ -1,0 +1,58 @@
+:root {
+  --scdfl-red: #f22e3d;
+  --scdfl-blue: #22283a;
+  --scdfl-gold: #f2b22e;
+  --scdfl-neutral: #e2d7ce;
+}
+
+* {
+  border: 1px solid rebeccapurple;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--scdfl-neutral);
+}
+
+/* Page Header Styles */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+}
+
+.external-link {
+  max-height: 75px;
+}
+
+#league-logo {
+  max-width: 50%;
+}
+
+.header-text {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Bungee', sans-serif;
+  font-size: 3.5rem;
+}
+
+#slogan {
+  font-family: 'Lato Light Italic', sans-serif;
+  font-size: 1.5rem;
+}

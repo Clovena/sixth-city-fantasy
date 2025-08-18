@@ -6,7 +6,7 @@
 }
 
 * {
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,8 +14,26 @@
 
 body {
   background-color: var(--scdfl-neutral);
-  margin: 1.5em 0.5em 0;
+  margin: 1em 0.2em 0;
+  padding: 0.2em;
   font-family: "Lato", sans-serif;
+}
+
+.border {
+  border-radius: 1rem;
+  padding: 0.25em;
+}
+
+#border-red {
+  border: 2px dashed var(--scdfl-red);
+}
+
+#border-gold {
+  border: 2px dashed var(--scdfl-gold);
+}
+
+#border-blue {
+  border: 2px dashed var(--scdfl-blue);
 }
 
 /* Page Header Styles */
@@ -28,6 +46,7 @@ body {
 }
 
 .header-bar {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,12 +92,15 @@ body {
   display: grid;
   grid-template: repeat(3, 25vw) / repeat(3, 25vw);
   justify-content: center;
-  gap: 2vw;
+  gap: 3vw;
 }
 
 .menu-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  border: 0.125em solid var(--scdfl-blue);
+  border-radius: 1rem;
 }
 
 .menu-icon {

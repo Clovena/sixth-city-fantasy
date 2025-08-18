@@ -179,8 +179,8 @@ th {
 /* Scores Section Styles */
 /* Most inherited from the above */
 
-.table-scores {
-  margin-bottom: 2em;
+.week-num {
+  padding-top: 2rem;
 }
 
 .table-scores th {

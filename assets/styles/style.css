@@ -110,7 +110,7 @@ h3 {
   text-decoration: inherit;
   border: 0.125em solid rgb(var(--scdfl-blue));
   border-radius: 1rem;
-  background-color: rgba(var(--scdfl-blue), 0.1);
+  background-color: rgba(var(--scdfl-gold), 0.1);
 }
 
 .menu-icon {
@@ -118,3 +118,42 @@ h3 {
 }
 
 /* Standings Section Styles */
+
+table {
+  margin-top: 1em;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(var(--scdfl-blue));
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+}
+
+th {
+  font-family: 'Lato Black', sans-serif;
+  color: white;
+}
+
+#standings-scc th {
+  background-color: rgb(var(--scdfl-blue));
+}
+
+#standings-scc tr:nth-child(even) {
+  background-color: rgba(var(--scdfl-blue), 0.1);
+}
+
+#standings-hcc th {
+  background-color: rgb(var(--scdfl-red));
+}
+
+#standings-hcc tr:nth-child(even) {
+  background-color: rgba(var(--scdfl-red), 0.1);
+}
+
+.tbl-record {
+  text-align: center;
+}

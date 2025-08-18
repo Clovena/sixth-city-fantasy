@@ -82,7 +82,7 @@ h1 {
 
 h2 {
   font-family: 'Bungee', sans-serif;
-  margin: 2rem 0 0.5rem;
+  padding: 2rem 0 0.5rem;
 }
 
 h3 {
@@ -121,7 +121,7 @@ h3 {
 /* Standings Section Styles */
 
 table {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 table,

@@ -7,7 +7,7 @@
 }
 
 * {
-  /* border: 1px solid rebeccapurple; */
+  border: 1px solid rebeccapurple;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -54,6 +54,10 @@ body {
   align-items: center;
 }
 
+.header-mini {
+  justify-content: center;
+}
+
 .header-button {
   display: flex;
   justify-content: center;
@@ -90,13 +94,13 @@ h3 {
   margin-top: 0.2em;
 }
 
-#menu-jump {
+.page-jump {
   font-family: 'Lato Italic', sans-serif;
   text-align: center;
   margin-top: 1em;
 }
 
-#menu-jump a {
+.page-jump a {
   color: inherit;
 }
 

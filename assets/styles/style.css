@@ -3,6 +3,7 @@
   --scdfl-blue: 34, 40, 58;
   --scdfl-gold: 242, 178, 46;
   --scdfl-neutral: 226, 215, 206;
+  --scdfl-radius: 1rem;
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 /* Border Styles */
 
 .border {
-  border-radius: 1rem;
+  border-radius: var(--scdfl-radius);
   padding: 0.25em;
 }
 
@@ -109,7 +110,7 @@ h3 {
   color: inherit;
   text-decoration: inherit;
   border: 0.125em solid rgb(var(--scdfl-blue));
-  border-radius: 1rem;
+  border-radius: var(--scdfl-radius);
   background-color: rgba(var(--scdfl-gold), 0.1);
 }
 

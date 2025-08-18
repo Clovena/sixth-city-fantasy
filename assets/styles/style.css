@@ -15,6 +15,7 @@
 body {
   background-color: var(--scdfl-neutral);
   margin: 1.5em 0.5em 0;
+  font-family: "Lato", sans-serif;
 }
 
 /* Page Header Styles */
@@ -28,10 +29,8 @@ body {
 
 .header-bar {
   display: flex;
-  /* gap: 5vw; */
   justify-content: space-between;
   align-items: center;
-  /* padding: 5% 0; */
 }
 
 .header-button {
@@ -62,4 +61,13 @@ body {
 #slogan {
   font-family: 'Lato Light Italic', sans-serif;
   font-size: 1em;
+}
+
+/* Menu Pane Styles */
+
+#menu {
+  display: grid;
+  grid-template: repeat(3, 25vw) / repeat(3, 25vw);
+  justify-content: center;
+  gap: 2vw;
 }

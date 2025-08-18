@@ -6,7 +6,7 @@
 }
 
 * {
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,8 +16,10 @@ body {
   background-color: var(--scdfl-neutral);
   margin: 1em 0.2em 0;
   padding: 0.2em;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
+
+/* Border Styles */
 
 .border {
   border-radius: 1rem;
@@ -79,7 +81,7 @@ h1 {
 
 h2 {
   font-family: 'Bungee', sans-serif;
-  margin: 1rem 0 0.5rem;
+  margin: 2rem 0 0.5rem;
 }
 
 h3 {
@@ -100,16 +102,17 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Lato Bold', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: inherit;
   border: 0.125em solid var(--scdfl-blue);
   border-radius: 1rem;
 }
 
 .menu-icon {
-  max-height: 50%;
+  max-height: 3em;
 }
 
-.menu-text {
-  font-family: "Lato Bold", sans-serif;
-  font-size: 0.8rem;
-  text-align: center;
-}
+/* Standings Section Styles */

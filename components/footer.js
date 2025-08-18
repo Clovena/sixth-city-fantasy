@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
       <footer>
         Copyright &copy; 2025 Zacalytics, LLC.<br />
         Some rights reserved.<br />
-        Icons and custom fonts by Google Fonts.
+        Icons and custom fonts<br />by Google Fonts.
       </footer>
     `;
   }

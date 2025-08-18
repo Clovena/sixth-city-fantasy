@@ -1,8 +1,8 @@
 :root {
-  --scdfl-red: #f22e3d;
-  --scdfl-blue: #22283a;
-  --scdfl-gold: #f2b22e;
-  --scdfl-neutral: #e2d7ce;
+  --scdfl-red: 242, 46, 61;
+  --scdfl-blue: 34, 40, 58;
+  --scdfl-gold: 242, 178, 46;
+  --scdfl-neutral: 226, 215, 206;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--scdfl-neutral);
+  background-color: rgb(var(--scdfl-neutral));
   margin: 1em 0.2em 0;
   padding: 0.2em;
   font-family: 'Lato', sans-serif;
@@ -27,15 +27,15 @@ body {
 }
 
 #border-red {
-  border: 2px dashed var(--scdfl-red);
+  border: 2px dashed rgb(var(--scdfl-red));
 }
 
 #border-gold {
-  border: 2px dashed var(--scdfl-gold);
+  border: 2px dashed rgb(var(--scdfl-gold));
 }
 
 #border-blue {
-  border: 2px dashed var(--scdfl-blue);
+  border: 2px dashed rgb(var(--scdfl-blue));
 }
 
 /* Page Header Styles */
@@ -107,8 +107,9 @@ h3 {
   text-align: center;
   color: inherit;
   text-decoration: inherit;
-  border: 0.125em solid var(--scdfl-blue);
+  border: 0.125em solid rgb(var(--scdfl-blue));
   border-radius: 1rem;
+  background-color: rgba(var(--scdfl-blue), 0.1);
 }
 
 .menu-icon {

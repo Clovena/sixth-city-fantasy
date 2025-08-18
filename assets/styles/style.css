@@ -6,7 +6,7 @@
 }
 
 * {
-  /* border: 1px solid rebeccapurple; */
+  border: 1px solid rebeccapurple;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -68,20 +68,21 @@ body {
 
 .header-text {
   text-align: center;
+  line-height: 1em;
 }
 
-.title {
+h1 {
   font-family: 'Bungee', sans-serif;
   font-size: 2em;
-  line-height: 1em;
   margin-top: 1rem;
 }
 
-.subtitle {
+h2 {
   font-family: 'Bungee', sans-serif;
+  margin: 1rem 0 0.5rem;
 }
 
-.slogan {
+h3 {
   font-family: 'Lato Light Italic', sans-serif;
   font-size: 1em;
 }

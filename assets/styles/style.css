@@ -155,6 +155,34 @@ th {
   background-color: rgba(var(--scdfl-red), 0.1);
 }
 
-.tbl-record {
+.tbl-center {
   text-align: center;
+}
+
+.tbl-right {
+  text-align: right;
+}
+
+/* Scores Section Styles */
+/* Most inherited from the above */
+
+.table-scores th {
+  background-color: rgb(var(--scdfl-gold));
+  color: rgb(var(--scdfl-blue));
+}
+
+.tbl-pts {
+  font-size: 0.85em;
+}
+
+.tbl-winner {
+  background-color: rgba(var(--scdfl-gold), 0.25);
+  font-family: "Lato Black", sans-serif;
+}
+
+.tbl-caption {
+  font-family: "Lato Light Italic", sans-serif;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 0.25em;
 }

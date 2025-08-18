@@ -90,6 +90,16 @@ h3 {
   margin-top: 0.2em;
 }
 
+#menu-jump {
+  font-family: 'Lato Italic', sans-serif;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#menu-jump a {
+  color: inherit;
+}
+
 /* Menu Pane Styles */
 
 #menu {
@@ -176,11 +186,11 @@ th {
 
 .tbl-winner {
   background-color: rgba(var(--scdfl-gold), 0.25);
-  font-family: "Lato Black", sans-serif;
+  font-family: 'Lato Black', sans-serif;
 }
 
 .tbl-caption {
-  font-family: "Lato Light Italic", sans-serif;
+  font-family: 'Lato Light Italic', sans-serif;
   font-size: 0.75em;
   text-align: center;
   padding: 0.25em;

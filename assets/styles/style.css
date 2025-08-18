@@ -51,14 +51,18 @@ body {
   text-align: center;
 }
 
-#title {
+.title {
   font-family: 'Bungee', sans-serif;
   font-size: 2em;
   line-height: 1em;
   margin-top: 1rem;
 }
 
-#slogan {
+.subtitle {
+  font-family: 'Bungee', sans-serif;
+}
+
+.slogan {
   font-family: 'Lato Light Italic', sans-serif;
   font-size: 1em;
 }
@@ -70,4 +74,19 @@ body {
   grid-template: repeat(3, 25vw) / repeat(3, 25vw);
   justify-content: center;
   gap: 2vw;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon {
+  max-height: 50%;
+}
+
+.menu-text {
+  font-family: "Lato Bold", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
 }

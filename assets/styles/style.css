@@ -14,6 +14,7 @@
 
 body {
   background-color: var(--scdfl-neutral);
+  margin: 1.5em 0.5em 0;
 }
 
 /* Page Header Styles */
@@ -21,13 +22,16 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+  padding: 2vw;
 }
 
 .header-bar {
   display: flex;
+  /* gap: 5vw; */
+  justify-content: space-between;
   align-items: center;
-  padding: 1em 0;
+  /* padding: 5% 0; */
 }
 
 .header-button {
@@ -36,11 +40,12 @@ body {
 }
 
 .external-link {
-  max-height: 75px;
+  max-height: 12vw;
 }
 
 #league-logo {
-  max-width: 50%;
+  width: 28vw;
+  /* max-width: 200px; */
 }
 
 .header-text {
@@ -49,10 +54,12 @@ body {
 
 #title {
   font-family: 'Bungee', sans-serif;
-  font-size: 3.5rem;
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 1rem;
 }
 
 #slogan {
   font-family: 'Lato Light Italic', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1em;
 }

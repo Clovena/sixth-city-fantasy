@@ -2,7 +2,6 @@ class Header extends HTMLElement {
   constructor() {
     super();
   }
-
   connectedCallback() {
     this.innerHTML = `
       <header class="header">
@@ -45,4 +44,43 @@ class Header extends HTMLElement {
   }
 }
 
+class HeaderMini extends HTMLElement {
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
+      <header class="header">
+        <li class="header-bar header-mini">
+          <a href="../index.html" class="header-button" role="button">
+            <img
+              src="../assets/images/scdfl.svg"
+              alt="Sixth City Dynasty Football League"
+              id="league-logo" />
+          </a>
+        </li>
+      </header>
+    `;
+  }
+}
+
+class Footer extends HTMLElement {
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
+      <footer>
+        Copyright &copy; 2025<br />
+        Zacalytics, LLC.<br />
+        Some rights reserved.<br />
+        Icons and custom fonts<br />
+        by Google Fonts.
+      </footer>
+    `;
+  }
+}
+
 customElements.define('header-component', Header);
+customElements.define('headermini-component', HeaderMini);
+customElements.define('footer-component', Footer);

@@ -95,6 +95,19 @@ h3 {
   margin-top: 0.2em;
 }
 
+h4 {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+h5 {
+  font-family: 'Bungee Hairline', sans-serif;
+  font-size: 2.5em;
+  margin: 8%;
+}
+
 .page-jump {
   font-family: 'Lato Italic', sans-serif;
   text-align: center;
@@ -226,4 +239,20 @@ th {
 
 .team-logo {
   width: 28vw;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template: repeat(5, 28vw) / repeat(2, 36vw);
+  justify-content: center;
+  gap: 5vw;
+  margin: 2em 0;
+}
+
+.scc {
+  background-color: rgba(var(--scdfl-blue), 0.1);
+}
+
+#career-winnings {
+  grid-column-start: span 2;
 }
